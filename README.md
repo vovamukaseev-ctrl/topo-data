@@ -90,7 +90,7 @@ SKIP_DOWNLOAD=1 TAG=v2026-11-23 ./build.sh   # не перекачивать OSM
 
 ## Публикация (вручную)
 
-Все `url` в каталоге абсолютные: `https://github.com/foxyclaw/topo-data/releases/download/$TAG/<файл>`
+Все `url` в каталоге абсолютные: `https://github.com/vovamukaseev-ctrl/topo-data/releases/download/$TAG/<файл>`
 (тег задаётся одной переменной `TAG`). Приложение по умолчанию читает каталог из релиза с тегом `catalog`,
 поэтому `catalog.json` кладётся и туда:
 

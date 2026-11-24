@@ -1,6 +1,6 @@
 """Write out/catalog.json (format: ../topo-android DESIGN.md §3.3, parser core/PackCatalog.kt).
 
-Env: TAG (release tag, e.g. v2026-11-23), BASE_URL (default https://github.com/foxyclaw/topo-data/releases/download/$TAG/),
+Env: TAG (release tag, e.g. v2026-11-23), BASE_URL (default https://github.com/vovamukaseev-ctrl/topo-data/releases/download/$TAG/),
 VERSION (default today). Sizes and sha256 are measured from the files in out/; avg_tile_bytes of the extract
 sources are measured from the PMTiles directories (all addressed tiles, duplicates included).
 """
@@ -11,7 +11,7 @@ from pmtiles.tile import deserialize_header, deserialize_directory, tileid_to_zx
 OUT = "out"
 VERSION = os.environ.get("VERSION") or datetime.date.today().isoformat()
 TAG = os.environ.get("TAG") or "v" + VERSION
-BASE_URL = os.environ.get("BASE_URL") or f"https://github.com/foxyclaw/topo-data/releases/download/{TAG}/"
+BASE_URL = os.environ.get("BASE_URL") or f"https://github.com/vovamukaseev-ctrl/topo-data/releases/download/{TAG}/"
 OSM = "© OpenMapTiles © участники OpenStreetMap (ODbL)"
 DEM = ("Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 "
        "provided under COPERNICUS by the European Union and ESA")

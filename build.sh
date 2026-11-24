@@ -9,7 +9,7 @@ cd "$(dirname $0)"
 # ---- settings ---------------------------------------------------------------------------------
 export VERSION=${VERSION:-$(date +%Y-%m-%d)}
 export TAG=${TAG:-v$VERSION}                       # GitHub release tag with the .pmtiles assets
-export BASE_URL=${BASE_URL:-https://github.com/foxyclaw/topo-data/releases/download/$TAG/}
+export BASE_URL=${BASE_URL:-https://github.com/vovamukaseev-ctrl/topo-data/releases/download/$TAG/}
 export JAVA=${JAVA:-/opt/homebrew/opt/openjdk@21/bin/java}
 PLANETILER_VERSION=0.10.2
 PYTHON_BOOT=${PYTHON_BOOT:-/opt/homebrew/bin/python3.12}   # only used to create .venv
