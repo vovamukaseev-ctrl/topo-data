@@ -1,0 +1,11 @@
+# Python wheels bundle their own GDAL/GEOS/PROJ — no system libraries needed
+numpy
+scipy
+rasterio
+fiona
+shapely
+contourpy
+osmium
+pillow
+pmtiles
+mapbox-vector-tile

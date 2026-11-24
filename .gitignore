@@ -1,0 +1,8 @@
+out/
+tools/
+data/
+logs/
+.venv/
+__pycache__/
+claude*.log
+status.txt

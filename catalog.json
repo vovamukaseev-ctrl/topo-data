@@ -1,0 +1,343 @@
+{
+ "version": 1,
+ "title": "Карты Беларуси",
+ "updated": "2026-11-23",
+ "packs": [
+  {
+   "id": "brest-oblast",
+   "name": "Брестская область",
+   "kind": "base",
+   "format": "pmtiles",
+   "bbox": [
+    23.1787,
+    51.4989,
+    27.6161,
+    53.4079
+   ],
+   "minzoom": 0,
+   "maxzoom": 14,
+   "size": 122341546,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/brest-oblast.pmtiles",
+   "sha256": "081c1f9e66dde8ee921bf6579a06a1384cb9deaed2366cb141487204229213ee",
+   "version": "2026-11-23",
+   "group": "Области",
+   "attribution": "© OpenMapTiles © участники OpenStreetMap (ODbL)",
+   "description": "дороги, леса, болота, вода, здания, нас. пункты, подписи по-русски"
+  },
+  {
+   "id": "vitebsk-oblast",
+   "name": "Витебская область",
+   "kind": "base",
+   "format": "pmtiles",
+   "bbox": [
+    26.2085,
+    54.2344,
+    31.2108,
+    56.1722
+   ],
+   "minzoom": 0,
+   "maxzoom": 14,
+   "size": 154954794,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/vitebsk-oblast.pmtiles",
+   "sha256": "ce1db945ae764336c2a1a59fab1c9de949b987a5db7bc009907c0eba5db58f58",
+   "version": "2026-11-23",
+   "group": "Области",
+   "attribution": "© OpenMapTiles © участники OpenStreetMap (ODbL)",
+   "description": "дороги, леса, болота, вода, здания, нас. пункты, подписи по-русски"
+  },
+  {
+   "id": "gomel-oblast",
+   "name": "Гомельская область",
+   "kind": "base",
+   "format": "pmtiles",
+   "bbox": [
+    27.2503,
+    51.2627,
+    31.7993,
+    53.3549
+   ],
+   "minzoom": 0,
+   "maxzoom": 14,
+   "size": 97989116,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/gomel-oblast.pmtiles",
+   "sha256": "eef2aa4b931e5f22ea4cdbfa976a78fe43dd4a82cdf9683c0f2000c547c14975",
+   "version": "2026-11-23",
+   "group": "Области",
+   "attribution": "© OpenMapTiles © участники OpenStreetMap (ODbL)",
+   "description": "дороги, леса, болота, вода, здания, нас. пункты, подписи по-русски"
+  },
+  {
+   "id": "grodno-oblast",
+   "name": "Гродненская область",
+   "kind": "base",
+   "format": "pmtiles",
+   "bbox": [
+    23.5116,
+    52.7441,
+    26.7012,
+    54.9981
+   ],
+   "minzoom": 0,
+   "maxzoom": 14,
+   "size": 95772004,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/grodno-oblast.pmtiles",
+   "sha256": "f92a162edddd60574e89ac729e13e092a0433354c4354ba7aa2fc0cd4702d9d6",
+   "version": "2026-11-23",
+   "group": "Области",
+   "attribution": "© OpenMapTiles © участники OpenStreetMap (ODbL)",
+   "description": "дороги, леса, болота, вода, здания, нас. пункты, подписи по-русски"
+  },
+  {
+   "id": "minsk-oblast",
+   "name": "Минская область и Минск",
+   "kind": "base",
+   "format": "pmtiles",
+   "bbox": [
+    26.0028,
+    52.3898,
+    29.4929,
+    55.0225
+   ],
+   "minzoom": 0,
+   "maxzoom": 14,
+   "size": 166751532,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/minsk-oblast.pmtiles",
+   "sha256": "1dcd9d46a69c650bfbabd0bc35bcee79567929ca210e5b66b4f482161ea5c99d",
+   "version": "2026-11-23",
+   "group": "Области",
+   "attribution": "© OpenMapTiles © участники OpenStreetMap (ODbL)",
+   "description": "дороги, леса, болота, вода, здания, нас. пункты, подписи по-русски"
+  },
+  {
+   "id": "mogilev-oblast",
+   "name": "Могилёвская область",
+   "kind": "base",
+   "format": "pmtiles",
+   "bbox": [
+    28.0817,
+    52.6746,
+    32.7628,
+    54.4743
+   ],
+   "minzoom": 0,
+   "maxzoom": 14,
+   "size": 96101498,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/mogilev-oblast.pmtiles",
+   "sha256": "67aadf76053e681661b4181a931497279d547096313278dea5ac97ba0f28e286",
+   "version": "2026-11-23",
+   "group": "Области",
+   "attribution": "© OpenMapTiles © участники OpenStreetMap (ODbL)",
+   "description": "дороги, леса, болота, вода, здания, нас. пункты, подписи по-русски"
+  },
+  {
+   "id": "belarus",
+   "name": "Беларусь целиком",
+   "kind": "base",
+   "format": "pmtiles",
+   "bbox": [
+    23.1787,
+    51.2627,
+    32.7628,
+    56.1722
+   ],
+   "minzoom": 0,
+   "maxzoom": 14,
+   "size": 501638998,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/belarus.pmtiles",
+   "sha256": "9c422a357afff2af3012012467339c0d50c6257c2fadbb88b58d13137a18373b",
+   "version": "2026-11-23",
+   "group": "Вся страна",
+   "attribution": "© OpenMapTiles © участники OpenStreetMap (ODbL)",
+   "description": "основная карта всей страны одним файлом (z0–14)"
+  },
+  {
+   "id": "contours-brest-oblast",
+   "name": "Горизонтали: Брестская",
+   "kind": "contours",
+   "format": "pmtiles",
+   "bbox": [
+    23.1787,
+    51.4989,
+    27.6161,
+    53.4079
+   ],
+   "minzoom": 10,
+   "maxzoom": 14,
+   "size": 34991845,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/contours-brest-oblast.pmtiles",
+   "sha256": "c3465eebff4fe0145f00dc3fff00561b7e16f06c84ecd2a1f739d38fdbb2a4fb",
+   "version": "2026-11-23",
+   "group": "Рельеф",
+   "attribution": "Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA",
+   "description": "горизонтали через 5 м, основные через 25 м (Copernicus DEM GLO-30)"
+  },
+  {
+   "id": "contours-vitebsk-oblast",
+   "name": "Горизонтали: Витебская",
+   "kind": "contours",
+   "format": "pmtiles",
+   "bbox": [
+    26.2085,
+    54.2344,
+    31.2108,
+    56.1722
+   ],
+   "minzoom": 10,
+   "maxzoom": 14,
+   "size": 55236136,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/contours-vitebsk-oblast.pmtiles",
+   "sha256": "79fe651053a04addd27d871b48ca0f41951669e44af7ed192719ca1b32f254f0",
+   "version": "2026-11-23",
+   "group": "Рельеф",
+   "attribution": "Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA",
+   "description": "горизонтали через 5 м, основные через 25 м (Copernicus DEM GLO-30)"
+  },
+  {
+   "id": "contours-gomel-oblast",
+   "name": "Горизонтали: Гомельская",
+   "kind": "contours",
+   "format": "pmtiles",
+   "bbox": [
+    27.2503,
+    51.2627,
+    31.7993,
+    53.3549
+   ],
+   "minzoom": 10,
+   "maxzoom": 14,
+   "size": 44406292,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/contours-gomel-oblast.pmtiles",
+   "sha256": "2db3ceff05d9d3afa64fdedc861a0e54f60d5861a0dd758bebfa6db382119d33",
+   "version": "2026-11-23",
+   "group": "Рельеф",
+   "attribution": "Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA",
+   "description": "горизонтали через 5 м, основные через 25 м (Copernicus DEM GLO-30)"
+  },
+  {
+   "id": "contours-grodno-oblast",
+   "name": "Горизонтали: Гродненская",
+   "kind": "contours",
+   "format": "pmtiles",
+   "bbox": [
+    23.5116,
+    52.7441,
+    26.7012,
+    54.9981
+   ],
+   "minzoom": 10,
+   "maxzoom": 14,
+   "size": 35499494,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/contours-grodno-oblast.pmtiles",
+   "sha256": "35c0fecc2bdf5be51d945fec20c3bb4b542c331f120244c354d3fd73564a9505",
+   "version": "2026-11-23",
+   "group": "Рельеф",
+   "attribution": "Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA",
+   "description": "горизонтали через 5 м, основные через 25 м (Copernicus DEM GLO-30)"
+  },
+  {
+   "id": "contours-minsk-oblast",
+   "name": "Горизонтали: Минская и Минск",
+   "kind": "contours",
+   "format": "pmtiles",
+   "bbox": [
+    26.0028,
+    52.3898,
+    29.4929,
+    55.0225
+   ],
+   "minzoom": 10,
+   "maxzoom": 14,
+   "size": 63046159,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/contours-minsk-oblast.pmtiles",
+   "sha256": "9e4ce68d4ae53904ef7b01c0cbeb36e2dd72bee0def0da38577d85f0cf439610",
+   "version": "2026-11-23",
+   "group": "Рельеф",
+   "attribution": "Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA",
+   "description": "горизонтали через 5 м, основные через 25 м (Copernicus DEM GLO-30)"
+  },
+  {
+   "id": "contours-mogilev-oblast",
+   "name": "Горизонтали: Могилёвская",
+   "kind": "contours",
+   "format": "pmtiles",
+   "bbox": [
+    28.0817,
+    52.6746,
+    32.7628,
+    54.4743
+   ],
+   "minzoom": 10,
+   "maxzoom": 14,
+   "size": 46884345,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/contours-mogilev-oblast.pmtiles",
+   "sha256": "7b93fad0ea9affdbbc1d3ce04c356de18f8d5279537eed4af1e3dfbc3141ccc5",
+   "version": "2026-11-23",
+   "group": "Рельеф",
+   "attribution": "Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA",
+   "description": "горизонтали через 5 м, основные через 25 м (Copernicus DEM GLO-30)"
+  },
+  {
+   "id": "hillshade-belarus",
+   "name": "Отмывка рельефа: Беларусь",
+   "kind": "hillshade",
+   "format": "pmtiles",
+   "bbox": [
+    23.1787,
+    51.2627,
+    32.7628,
+    56.1722
+   ],
+   "minzoom": 8,
+   "maxzoom": 12,
+   "size": 79190658,
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/hillshade-belarus.pmtiles",
+   "sha256": "76c7cbd2282a12f8b192e89a85f3c1c19302dc5a0015b07bfd41407ac8daf28d",
+   "version": "2026-11-23",
+   "group": "Рельеф",
+   "attribution": "Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA",
+   "description": "теневая отмывка рельефа, WebP с прозрачностью"
+  }
+ ],
+ "extract": [
+  {
+   "id": "belarus",
+   "name": "Беларусь (векторная)",
+   "kind": "base",
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/belarus.pmtiles",
+   "maxzoom": 14,
+   "avg_tile_bytes": {
+    "0": 6326,
+    "1": 3797,
+    "2": 6732,
+    "3": 6608,
+    "4": 5524,
+    "5": 15299,
+    "6": 16651,
+    "7": 50749,
+    "8": 50634,
+    "9": 46162,
+    "10": 22406,
+    "11": 16021,
+    "12": 7986,
+    "13": 3927,
+    "14": 2567
+   },
+   "attribution": "© OpenMapTiles © участники OpenStreetMap (ODbL)"
+  },
+  {
+   "id": "contours-belarus",
+   "name": "Беларусь (горизонтали)",
+   "kind": "contours",
+   "url": "https://github.com/foxyclaw/topo-data/releases/download/v2026-11-23/contours-belarus.pmtiles",
+   "maxzoom": 14,
+   "avg_tile_bytes": {
+    "10": 5906,
+    "11": 2605,
+    "12": 4989,
+    "13": 2058,
+    "14": 913
+   },
+   "attribution": "Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA"
+  }
+ ]
+}

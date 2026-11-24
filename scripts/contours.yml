@@ -1,0 +1,35 @@
+# Planetiler custom schema: contour vector tiles from data/contours.gpkg (scripts/contours.py).
+# Layer `contour`: ele (m, integer), index (1 = основная, кратная 25 м; 0 = промежуточная 5 м).
+# Index lines from z10, all lines from z12 (the app style draws minor lines from z12, major from z10).
+schema_name: Topo contours
+schema_description: Горизонтали Беларуси (Copernicus DEM GLO-30), 5 м, основные через 25 м
+attribution: Copernicus DEM © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA
+args:
+  minzoom: 10
+  maxzoom: 14
+sources:
+  contours:
+    type: geopackage
+    local_path: data/contours.gpkg
+    projection: EPSG:4326
+layers:
+  - id: contour
+    buffer: 4
+    features:
+      - source: contours
+        geometry: line
+        min_zoom:
+          default_value: 12
+          overrides:
+            10: { index: 1 }
+        min_size: 4
+        min_size_at_max_zoom: 1
+        tolerance: 0.5
+        tolerance_at_max_zoom: 0.125
+        attributes:
+          - key: ele
+            tag_value: ele
+            type: integer
+          - key: index
+            tag_value: index
+            type: integer
